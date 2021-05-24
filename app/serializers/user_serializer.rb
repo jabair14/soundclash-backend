@@ -4,6 +4,8 @@ class UserSerializer < ActiveModel::Serializer
   has_many :packs 
   has_many :purchases 
 
+  # has_many :packs, through: :purchases 
+
   # def downloads
   #   self.object.purchases
   # end

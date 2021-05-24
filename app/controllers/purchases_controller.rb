@@ -13,4 +13,20 @@ class PurchasesController < ApplicationController
 
         render json: purchase 
     end
+
+    def create
+        purchase = Purchase.create!(purchase_params)
+        render json: purchase
+    end
+
+    def update 
+        purchase = Purchase.find(params[:id])
+        purchase.update!(purchase_params)
+    end
+
+    private
+
+    def purchase_params
+        params.require(:purchase).permit(:user_id, :pack_id)
+    end
 end

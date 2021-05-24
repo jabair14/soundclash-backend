@@ -16,6 +16,11 @@ Pack.destroy_all
 Genre.destroy_all
 User.destroy_all
 
+Purchase.reset_pk_sequence
+Pack.reset_pk_sequence
+Genre.reset_pk_sequence
+User.reset_pk_sequence
+
 puts "seeds destroyed."
 
 puts "creating users"
@@ -56,10 +61,11 @@ puts "packs done."
 
 puts "creating purchases"
 
-20.times do 
-    Purchase.create(pack_id: Pack.all.sample.id, user_id: User.all.sample.id)
+# 20.times do 
+#     Purchase.create(pack_id: Pack.all.sample.id, user_id: User.all.sample.id)
 
-end
+# end
+Purchase.create(pack_id: 1, user_id: 1)
 
 puts "seeds done."
 

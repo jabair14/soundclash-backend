@@ -1,5 +1,5 @@
 class PackSerializer < ActiveModel::Serializer
-  attributes :id, :user_id, :genre_id, :name, :description, :image, :preview, :link, :price, :author_name, :genre_name
+  attributes :id, :user_id, :genre_id, :name, :description, :image, :preview, :link, :price, :genre_name, :author_name
 
   has_many :purchases
   belongs_to :user 
