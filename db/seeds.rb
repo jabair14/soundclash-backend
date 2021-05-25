@@ -61,11 +61,11 @@ puts "packs done."
 
 puts "creating purchases"
 
-# 20.times do 
-#     Purchase.create(pack_id: Pack.all.sample.id, user_id: User.all.sample.id)
+20.times do 
+    Purchase.create(pack_id: Pack.all.sample.id, user_id: User.all.sample.id)
 
-# end
-Purchase.create(pack_id: 1, user_id: 1)
+end
+# Purchase.create(pack_id: 1, user_id: 1)
 
 puts "seeds done."
 
