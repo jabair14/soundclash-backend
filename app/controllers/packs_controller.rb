@@ -18,6 +18,7 @@ class PacksController < ApplicationController
     def update 
         pack = Pack.find(params[:id])
         pack.update!(pack_params)
+        render json: pack
     end
 
     def destroy 
