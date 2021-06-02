@@ -45,7 +45,7 @@ Genre.create(name: "Techno")
 Genre.create(name: "House")
 Genre.create(name: "Dancehall")
 Genre.create(name: "Afro-Beats")
-Genre.create(name: "UK Drill/Grime")
+Genre.create(name: "Drill/Grime")
 Genre.create(name: "Foley")
 Genre.create(name: "EDM")
 
@@ -90,7 +90,7 @@ Pack.create(
 Pack.create(
     user_id: User.all.sample.id,
     genre_id: 3, 
-    name: "Chicago House Elements",
+    name: "Chicago House",
     image: "https://cdn.producerloops.com//images/thumbs/50524/prod_img_50524_236x236%5E85+1604737210.jpg",
     preview: "https://bandcamp.com/EmbeddedPlayer/track=2449232180/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/",
     description: Faker::Music::Prince.lyric,
@@ -112,8 +112,8 @@ Pack.create(
 Pack.create(
     user_id: User.all.sample.id,
     genre_id: 5, 
-    name: "Drip Hip Hop Samples",
-    image: "https://sample-packs.com/wp-content/uploads/2019/09/drip-hip-hop-sample-pack.jpg",
+    name: "Hip Hop Samples",
+    image: "https://q6h2g3u3.stackpathcdn.com/wp-content/uploads/2020/12/F1-Golden-Hip-Hop-Cover.jpg",
     preview: "https://bandcamp.com/EmbeddedPlayer/track=2449232180/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/",
     description: Faker::Music::Prince.lyric,
     link: "https://www.dropbox.com/sh/rvmrf2omy6r3426/AAADs6d1LtCLCXpNG1qvgh6Ra?dl=0",
@@ -145,7 +145,7 @@ Pack.create(
 Pack.create(
     user_id: User.all.sample.id,
     genre_id: 8, 
-    name: "Music to Score Movies",
+    name: "Movie Scores",
     image: "https://cdn.shopify.com/s/files/1/0166/5170/products/Soul_Surplus_-_Original_Motion_Picture_Sample_Pack.png?v=1566586109",
     preview: "https://bandcamp.com/EmbeddedPlayer/track=2449232180/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/",
     description: Faker::Music::Prince.lyric,
@@ -178,7 +178,7 @@ Pack.create(
 Pack.create(
     user_id: User.all.sample.id,
     genre_id: 10, 
-    name: "Weird Samples to Weird With",
+    name: "Weird Samples",
     image: "https://plugintorrent.info/wp-content/uploads/2020/11/Instead-Of-Drums-1-%E2%80%95-Foley-Sample-Pack-min.jpg",
     preview: "https://bandcamp.com/EmbeddedPlayer/track=2449232180/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/",
     description: Faker::Music::Prince.lyric,
@@ -189,7 +189,7 @@ Pack.create(
 Pack.create(
     user_id: User.all.sample.id,
     genre_id: 11, 
-    name: "Definitely Not Dubstep",
+    name: "Definitely Dubstep",
     image: "https://i1.sndcdn.com/artworks-r2Az6gdyiKq3DSeN-mMVMZA-t500x500.jpg",
     preview: "https://bandcamp.com/EmbeddedPlayer/track=2449232180/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/",
     description: Faker::Music::Prince.lyric,
@@ -201,7 +201,7 @@ Pack.create(
     user_id: User.all.sample.id,
     genre_id: 12, 
     name: "Play some Sade",
-    image: "https://townsquare.media/site/625/files/2018/04/sade-75613290.jpg?w=1200&h=0&zc=1&s=0&a=t&q=89",
+    image: "https://splice-res.cloudinary.com/image/upload/f_auto,q_auto,w_auto/c_limit,w_450/v1570112881/1570112881.jpg",
     preview: "https://bandcamp.com/EmbeddedPlayer/track=2449232180/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/",
     description: Faker::Music::Prince.lyric,
     link: "https://www.dropbox.com/sh/rvmrf2omy6r3426/AAADs6d1LtCLCXpNG1qvgh6Ra?dl=0",
